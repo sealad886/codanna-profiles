@@ -27,6 +27,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Codex VS Code profile (OpenAI Codex extension) with AGENTS.md template, verified command IDs, and capabilities matrix
 - GitHub Copilot VS Code profile with instruction-file template, prompt files, custom agent, and capabilities matrix
 
+## [1.1.1] - 2026-01-14
+
+### Added
+
+- Copilot profile skills (codebase explorer, add-language, skill developer) with reference trigger rules
+- Copilot research agent for structured Codanna discovery reports
+
 ## [1.0.0] - 2025-11-04
 
 ### Added

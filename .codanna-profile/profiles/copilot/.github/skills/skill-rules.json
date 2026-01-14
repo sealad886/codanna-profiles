@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "description": "Reference triggers for Copilot skill docs. Copilot does not auto-activate skills; use these rules to decide when to apply a skill or prompt file manually.",
+  "skills": {
+    "skill-developer": {
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Meta-skill for creating and managing Codanna profile skills",
+      "promptTriggers": {
+        "keywords": [
+          "skill system",
+          "create skill",
+          "add skill",
+          "skill triggers",
+          "skill rules",
+          "skill development",
+          "skill-rules.json"
+        ],
+        "intentPatterns": [
+          "(how do|how does|explain).*?skill",
+          "(create|add|modify|build).*?skill",
+          "skill.*?(work|trigger|activate|system)"
+        ]
+      }
+    },
+    "codebase-explorer": {
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Meta-skill for exploring local codebase using Codanna",
+      "promptTriggers": {
+        "keywords": [
+          "investigate",
+          "understand code",
+          "explore",
+          "codebase",
+          "use codanna"
+        ],
+        "intentPatterns": [
+          "(how do|how does|explain).*?code",
+          "(create|add|modify|build).*?method",
+          "(create|add|modify|build).*?class",
+          "(create|add|modify|build).*?function",
+          "code.*?(work|trigger|structure|system)"
+        ]
+      }
+    },
+    "add-language": {
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Guide for implementing new language parser in Codanna",
+      "promptTriggers": {
+        "keywords": [
+          "add language",
+          "new language",
+          "language support",
+          "implement parser",
+          "create parser",
+          "language implementation",
+          "add support for",
+          "parser implementation",
+          "language parser",
+          "tree-sitter"
+        ],
+        "intentPatterns": [
+          "(add|implement|create).*?(language|parser)",
+          "(new|support).*?language",
+          "language.*?(support|implementation|parser)",
+          "(how do|how to).*?add.*?language"
+        ]
+      }
+    }
+  },
+  "notes": {
+    "enforcement_types": {
+      "suggest": "Reference-only. Copilot does not auto-activate skills.",
+      "block": "Not applicable in Copilot profiles (no hook enforcement).",
+      "warn": "Reference-only. Manual guidance only."
+    },
+    "priority_levels": {
+      "critical": "Highest - Use for urgent or high-impact guidance",
+      "high": "Important - Use for most matches",
+      "medium": "Moderate - Use for clear matches",
+      "low": "Optional - Use only for explicit matches"
+    },
+    "customization": {
+      "pathPatterns": "Adjust to match your project structure (blog-api, auth-service, etc.)",
+      "keywords": "Add domain-specific terms relevant to your project",
+      "intentPatterns": "Use regex for flexible user intent matching"
+    }
+  }
+}

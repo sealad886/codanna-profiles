@@ -13,8 +13,12 @@ This profile targets **GitHub Copilot** and **GitHub Copilot Chat** for VS Code.
 - Prompt files:
   - `.github/prompts/codanna-xray.prompt.md`
   - `.github/prompts/codanna-symbol.prompt.md`
-- Custom agent:
+- Custom agents:
   - `.github/agents/codanna-implementer.agent.md`
+  - `.github/agents/codanna-research.agent.md`
+- Skill docs (manual guidance):
+  - `.github/skills/*/SKILL.md`
+  - `.github/skills/skill-rules.json`
 
 ## Quick start
 
@@ -61,6 +65,7 @@ See `capabilities.md` for the full matrix.
 - **Discovery**: Use `/codanna-xray` to run Codanna semantic search before edits.
 - **Symbol deep dive**: Use `/codanna-symbol` to explain how a symbol is used.
 - **Implementation**: Switch to the *Codanna Implementer* agent for multi-file edits.
+- **Research**: Switch to the *Codanna Research Agent* for structured discovery reports.
 - **Validation**: Run existing lint/test commands or explain why they cannot be run.
 
 ## Debugging & verbosity guidance

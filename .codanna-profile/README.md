@@ -168,6 +168,8 @@ Skills activate automatically when you ask about exploring code, adding language
 - `.github/copilot-instructions.md` template (chat-only instructions)
 - Prompt files for Codanna discovery and symbol lookup
 - Custom agent for Codanna-first implementation workflows
+- Research agent for Codanna-driven discovery reports
+- Skill docs and reference triggers for manual guidance
 - Capabilities matrix distinguishing Copilot vs Codanna vs VS Code features
 
 ## Requirements
