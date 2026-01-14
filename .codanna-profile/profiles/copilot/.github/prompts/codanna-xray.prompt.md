@@ -2,7 +2,7 @@
 name: codanna-xray
 description: Guided codebase exploration using Codanna semantic search and relationships.
 argument-hint: query="<topic or question>"
-agent: agent
+agent: ask
 ---
 You are in discovery mode. Use Codanna to build context before editing.
 
