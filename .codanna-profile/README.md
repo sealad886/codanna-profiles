@@ -161,6 +161,8 @@ Skills activate automatically when you ask about exploring code, adding language
 
 - `AGENTS.md` instructions template for Codex discovery and editing rules
 - Verified Codex command IDs (see `profiles/codex/README.md`)
+- Skill docs and reference triggers for manual guidance
+- Research agent reference workflow for Codanna-driven discovery
 - Capabilities matrix distinguishing Codex vs Codanna vs VS Code features
 
 ## Copilot Profile Highlights

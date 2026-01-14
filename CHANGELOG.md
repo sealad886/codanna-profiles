@@ -34,6 +34,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Copilot profile skills (codebase explorer, add-language, skill developer) with reference trigger rules
 - Copilot research agent for structured Codanna discovery reports
 
+## [1.1.2] - 2026-01-14
+
+### Added
+
+- Codex profile skills (codebase explorer, add-language, skill developer) with reference trigger rules
+- Codex research agent for structured Codanna discovery reports
+
 ## [1.0.0] - 2025-11-04
 
 ### Added

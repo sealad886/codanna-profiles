@@ -5,6 +5,8 @@ This profile targets the **Codex – OpenAI’s coding agent** VS Code extension
 ## What gets installed
 
 - `AGENTS.md.codanna` (template) → rename to `AGENTS.md` to activate Codex project instructions.
+- `skills/*/SKILL.md` and `skills/skill-rules.json` (manual guidance).
+- `agents/codanna-research.agent.md` (reference workflow).
 - This README for setup, commands, and workflow guidance.
 
 ## Extension IDs
@@ -81,6 +83,11 @@ See `capabilities.md` for the full matrix.
 2. **Trace**: use Codanna call graph queries to understand impact.
 3. **Edit**: apply Codex edits in Agent mode with atomic commits.
 4. **Validate**: run repo lint/test commands when available.
+
+## Skills and agent notes
+
+- Codex only reads `AGENTS.md` from the repo; skills and agents in this profile are reference docs.
+- Use the skill docs to decide when to run Codanna discovery commands.
 
 ## Limitations & non-goals
 
