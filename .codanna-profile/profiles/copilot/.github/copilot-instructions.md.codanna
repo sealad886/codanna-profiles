@@ -1,0 +1,19 @@
+# Codanna + Copilot workspace instructions
+
+## Use Codanna for code understanding
+- Run Codanna semantic search before modifying unfamiliar code.
+- Share the exact Codanna command and summarize the top results.
+- Follow relationships with `codanna mcp get_calls`, `codanna mcp find_callers`, or `codanna mcp analyze_impact`.
+- For symbols, use `codanna retrieve describe <symbol|symbol_id:ID>`.
+
+## Editing & validation
+- Keep edits atomic and scoped to the request.
+- Run existing lint/test commands when available.
+- If you can’t run a command, say so and explain the next best verification step.
+
+## Accuracy policy
+- Don’t invent VS Code commands, settings, or tool capabilities.
+- If a capability is missing, say so and propose a workaround.
+
+## Logging & traceability
+- When using Codanna, include the query and limit to improve repeatability.

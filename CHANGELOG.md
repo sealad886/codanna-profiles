@@ -8,19 +8,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.3] - 2025-12-03
 
 ### Added
+
 - Graph visualization script for symbol relationships (visualize-graph.js)
 - 3D force graph generation for exploring symbol call graphs
 - Logo assets for visualization UI (SVG, PNG, minified formats)
 - Graph suggestion workflow in symbol and x-ray commands
 
 ### Changed
+
 - Research-Agent model upgraded from haiku to sonnet-4-5
 - Symbol command extended with graph visualization suggestions
 - X-ray command extended with graph visualization suggestions
 
+## [1.1.0] - 2026-01-14
+
+### Added
+
+- Codex VS Code profile (OpenAI Codex extension) with AGENTS.md template, verified command IDs, and capabilities matrix
+- GitHub Copilot VS Code profile with instruction-file template, prompt files, custom agent, and capabilities matrix
+
 ## [1.0.0] - 2025-11-04
 
 ### Added
+
 - First Claude profile for codanna - semantic search and guided exploration
 - Profile README with complete installation and usage documentation
 - Three installation methods: GitHub, URL, and local directory

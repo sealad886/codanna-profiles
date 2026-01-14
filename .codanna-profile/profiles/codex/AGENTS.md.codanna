@@ -1,0 +1,18 @@
+# Codanna + Codex workspace guidance
+
+## Codanna-first discovery
+- Start with Codanna semantic search before edits.
+- Use `codanna mcp semantic_search_with_context query:"..." limit:5`.
+- Follow relationships with `codanna mcp get_calls`, `codanna mcp find_callers`, or `codanna mcp analyze_impact`.
+- When you need symbol detail, use `codanna retrieve describe <symbol|symbol_id:ID>`.
+
+## Evidence-first editing
+- Quote file:line ranges from Codanna results or read exact ranges before edits.
+- Keep edits atomic and run existing validation commands when available.
+
+## Command accuracy
+- Do not invent VS Code command IDs; only use documented Codex commands.
+- If a command or setting is unknown, say so and offer a safe alternative.
+
+## Logging
+- When you run Codanna, include the exact command and summarize the top results.

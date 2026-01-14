@@ -10,6 +10,18 @@
       "source": "profiles/claude",
       "description": "A sample Codanna profile for claude code interactions.",
       "version": "1.0.3"
+    },
+    {
+      "name": "codex",
+      "source": "profiles/codex",
+      "description": "Codanna profile for the OpenAI Codex VS Code extension.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "copilot",
+      "source": "profiles/copilot",
+      "description": "Codanna profile for GitHub Copilot + Copilot Chat in VS Code.",
+      "version": "1.0.0"
     }
   ]
 }
